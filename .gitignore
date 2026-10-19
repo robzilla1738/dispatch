@@ -1,0 +1,8 @@
+.DS_Store
+.build/
+.swiftpm/
+.cache/
+dist/
+release-artifacts/
+*.xcodeproj
+*.xcworkspace
