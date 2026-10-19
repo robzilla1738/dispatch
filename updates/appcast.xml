@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Dispatch</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Mon, 19 Oct 2026 10:55:18 -0500</pubDate>
+            <sparkle:version>1.0.0</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Dispatch 1.0.0
+
+Initial signed and notarized release of **Dispatch** for macOS:
+
+- **Native Spotlight + Aside UI**: Floating capsule search bar with inline completion badges (`Finder.app — Open`), scope chips, and a smooth slide-out Aside drawer inside the same window for Actions, AI Agent Chat, and Clipboard Preview.
+- **Auto-Detected Coding Tools**: Automatically discovers installed local coding CLIs (`Claude Code`, `OpenAI Codex`, `OpenCode`, `Cursor Agent`, `Grok Build`, `Pi Agent`, `Antigravity`, `Muse Code`, `Gemini CLI`, `Aider`, `Ollama`), local `SKILL.md` skills, and MCP servers.
+- **Live Model & Reasoning Effort Switching**: Switch coding providers, models, and reasoning effort (`Low`, `Medium`, `High`) right from the search bar, Aside drawer, or Settings.
+- **Composio App Connectors**: 18 pre-bundled SaaS connectors with official brand icons plus one-click **Add Custom Connector** for any of 250+ Composio toolkits by slug.
+- **Full Desktop Command Suite**: 27 Window Management layouts, Global Background Snippet Auto-Expansion (`;keyword`, `!keyword`, `:keyword:`), Clipboard History with Preview Pane, Floating Notes, Confetti, Calculator & Unit Conversions, Quicklinks, Emoji Search, System Controls, and Local Script Extensions.
+- **Signed & Notarized Sparkle Updates**: Embedded Sparkle 2.10.0 updater (`Dispatch → Check for Updates…`) verified with Ed25519 signatures.
+]]></description>
+            <enclosure url="https://github.com/robzilla1738/dispatch/releases/download/v1.0.0/Dispatch-1.0.0-universal.zip" length="11222624" type="application/octet-stream" sparkle:edSignature="WrNqYvXKWtQeI2YNKfzk6tEiWo5K3BsyWFQligg40Z/DON7j8huNeQXNBxrpM5cCAYHkcgKbeyBAezsIVlbqCA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: rF2ZlngBaCo9xNqOkZxk5li/kwLBbFyoxhHwg2HRM/oku65XtSI5XnBn4g9n1HUpCCd0+YarJotGKe3b8gTIAQ==
+length: 2546
+-->
